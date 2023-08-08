@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #0f0e17;
+    color: #fffffe;
+}
+.box-login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login{
+    width: 450px;
+    height: 450px;
+    background-color: #fffffe;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-login h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: black;
+}
+.inputs-login{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.inputs-login input{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.btn-login{
+    width: 80%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8906;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-login:hover{
+    background-color: #c56b04;
+}
+.header{
+    height: 80px;
+    background-color: #ff8906;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.header-nav a {
+    text-decoration: none;
+    color: #fffffe;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.header-nav a:hover{
+    color: black;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.btn-logout{
+    padding: 10px;
+    border: none;   
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: wheat;
+}
+.btn-logout:hover{
+    background-color: #ff8906;
+    color: #fffffe;
+}
+.aux-col{
+    display: flex;
+    flex-direction: column;
+}
+.aux-col input{
+    width: 40%;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+.aux-col textarea{
+    width: 40%;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+.mb-3{
+    margin-bottom: 20px;
+}
+.bg-white{
+    background-color: #fffffe;
+    color: black;
+    padding: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.dos-botones{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-danger{
+    background-color: rgba(213, 3, 3, 0.92);
+    color: #fffffe;
+}
+.btn-edit{
+    background-color: #ff8906;
+    color: #fffffe;
+}
